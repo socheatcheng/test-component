@@ -216,6 +216,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.7.3"
+  google_mlkit_commons:
+    dependency: transitive
+    description:
+      name: google_mlkit_commons
+      sha256: "3e69fea4211727732cc385104e675ad1e40b29f12edd492ee52fa108423a6124"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.11.1"
+  google_mlkit_text_recognition:
+    dependency: transitive
+    description:
+      name: google_mlkit_text_recognition
+      sha256: "10a8d1a64fa21efda89514f6df88bbb7885be3ae1bfb7a6d229132d802a20d22"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.15.1"
   hooks:
     dependency: transitive
     description:
@@ -240,15 +256,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.2"
-  id_card_scanner:
+  id_scanner:
     dependency: "direct main"
     description:
-      path: id_card_scanner
-      ref: id_scanner-v3
-      resolved-ref: "668ebf5ce7afcdf9dc021dfa61608ee1284d5880"
-      url: "git@bitbucket.org:elitevigour/id_scanner.git"
+      path: id_scanner
+      ref: "id-scanner/v1"
+      resolved-ref: "055e23c78bdad618f8485134a1c7e16fb2f28018"
+      url: "https://github.com/RaksmeyRet/open_cv_testing.git"
     source: git
-    version: "0.1.1"
+    version: "0.0.1"
   image:
     dependency: transitive
     description:
@@ -421,9 +437,9 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: "668ebf5ce7afcdf9dc021dfa61608ee1284d5880"
-      resolved-ref: "668ebf5ce7afcdf9dc021dfa61608ee1284d5880"
-      url: "git@bitbucket.org:elitevigour/id_scanner.git"
+      ref: "055e23c78bdad618f8485134a1c7e16fb2f28018"
+      resolved-ref: "055e23c78bdad618f8485134a1c7e16fb2f28018"
+      url: "https://github.com/RaksmeyRet/open_cv_testing.git"
     source: git
     version: "1.0.1"
   objective_c:
@@ -502,18 +518,18 @@ packages:
     dependency: transitive
     description:
       name: permission_handler
-      sha256: "59adad729136f01ea9e35a48f5d1395e25cba6cea552249ddbe9cf950f5d7849"
+      sha256: fe54465bcc62a4564c6e4db337bbaded6c0c0fa6e10487414436d163114784f6
       url: "https://pub.dev"
     source: hosted
-    version: "11.4.0"
+    version: "12.0.3"
   permission_handler_android:
     dependency: transitive
     description:
       name: permission_handler_android
-      sha256: d3971dcdd76182a0c198c096b5db2f0884b0d4196723d21a866fc4cdea057ebc
+      sha256: "1e3bc410ca1bf84662104b100eb126e066cb55791b7451307f9708d4007350e6"
       url: "https://pub.dev"
     source: hosted
-    version: "12.1.0"
+    version: "13.0.1"
   permission_handler_apple:
     dependency: transitive
     description:
@@ -594,6 +610,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.0"
+  sensors_plus:
+    dependency: transitive
+    description:
+      name: sensors_plus
+      sha256: "89e2bfc3d883743539ce5774a2b93df61effde40ff958ecad78cd66b1a8b8d52"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.1.2"
+  sensors_plus_platform_interface:
+    dependency: transitive
+    description:
+      name: sensors_plus_platform_interface
+      sha256: "9e12a92569bf14ae04b2f086c3e087177a47e527b7666ae1bbe5f70f8450ab19"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.2"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -647,6 +679,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.2"
+  tesseract_ocr:
+    dependency: transitive
+    description:
+      name: tesseract_ocr
+      sha256: "75577a824eb2fe1fd1043337118a88fa20a2b5cf772a212ddd37c176faf34f68"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.0"
   test_api:
     dependency: transitive
     description:

@@ -30,11 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  id_card_scanner:
+  id_scanner:
     git:
-      url: git@bitbucket.org:elitevigour/id_scanner.git
-      path: id_card_scanner
-      ref: id_scanner-v3
+      url: https://github.com/RaksmeyRet/open_cv_testing.git
+      path: id_scanner
+      ref: id-scanner/v1
   image_picker: ^1.2.3
   url_launcher: ^6.3.1
 
