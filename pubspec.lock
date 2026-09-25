@@ -5,10 +5,10 @@ packages:
     dependency: transitive
     description:
       name: archive
-      sha256: ace891da0862b0e4cabbb064ee3fd87b2728b898949fdb366d83fe98342c9f19
+      sha256: "6c5bcd986e06b94e3c40244af471750840a3d2341d1f9763a1100a14add517b4"
       url: "https://pub.dev"
     source: hosted
-    version: "4.2.0"
+    version: "4.3.0"
   args:
     dependency: transitive
     description:
@@ -61,18 +61,18 @@ packages:
     dependency: transitive
     description:
       name: camera_platform_interface
-      sha256: "4524ca6eb4176b066864036ad4fe02c3e4863e63b77eadc21a5bf56824f43498"
+      sha256: "9365babc7488a9e93d0ed6dcccd917619fb12ea6f9e601519e1191d4890ee2fe"
       url: "https://pub.dev"
     source: hosted
-    version: "2.13.1"
+    version: "2.14.0"
   camera_web:
     dependency: transitive
     description:
       name: camera_web
-      sha256: "081441bd2f92b5841aa70ff4d6eddfe34078d97f9d085cc9e0f9d0102f145925"
+      sha256: "5aecf1ac4dd4a949c5a7820e590020acb2bc35425384ab87a030e1739bfe12e2"
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.5+5"
+    version: "0.3.5+6"
   characters:
     dependency: transitive
     description:
@@ -209,7 +209,7 @@ packages:
     source: sdk
     version: "0.0.0"
   get:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: get
       sha256: "5ed34a7925b85336e15d472cc4cfe7d9ebf4ab8e8b9f688585bf6b50f4c3d79a"
@@ -260,8 +260,8 @@ packages:
     dependency: "direct main"
     description:
       path: id_scanner
-      ref: "id-scanner/v1"
-      resolved-ref: "055e23c78bdad618f8485134a1c7e16fb2f28018"
+      ref: "id-scanner/v2"
+      resolved-ref: "971643048e6c8c08f95b04c1e331dc094ff8909d"
       url: "https://github.com/RaksmeyRet/open_cv_testing.git"
     source: git
     version: "0.0.1"
@@ -269,10 +269,10 @@ packages:
     dependency: transitive
     description:
       name: image
-      sha256: "1976370a4df3091bb0f72409c187ad1f9132a818bc6b95ca59c0bae1c75c688e"
+      sha256: a1e7f4951e538a568e14b856702afc9ae1d2f4b202daced8d22c1b9cd211ce89
       url: "https://pub.dev"
     source: hosted
-    version: "4.9.2"
+    version: "4.10.1"
   image_picker:
     dependency: "direct main"
     description:
@@ -437,8 +437,8 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: "055e23c78bdad618f8485134a1c7e16fb2f28018"
-      resolved-ref: "055e23c78bdad618f8485134a1c7e16fb2f28018"
+      ref: "971643048e6c8c08f95b04c1e331dc094ff8909d"
+      resolved-ref: "971643048e6c8c08f95b04c1e331dc094ff8909d"
       url: "https://github.com/RaksmeyRet/open_cv_testing.git"
     source: git
     version: "1.0.1"
